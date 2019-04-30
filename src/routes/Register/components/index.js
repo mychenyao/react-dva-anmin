@@ -97,9 +97,9 @@ export default class Register extends Component {
             ...values,
             prefix
           }
-        });
+        })
       }
-    });
+    })
   };
 
   handleConfirmBlur = e => {
